@@ -16,7 +16,7 @@ curl -v localhost:20000/feature -H 'Content-Type: application/json' -d '{}'
 ```
 # 请求分析测试
 ```
-curl -v http://localhost:8080/feature?token=1234&page=1 \
+curl -v http://192.168.122.251:30080/feature?token=1234&page=1 \
 -H 'Content-Type: application/json' \
 -H 'app_key: 123456' \
 -H 'access_token: qwertyuiop' \
