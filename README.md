@@ -7,8 +7,8 @@ curl -v localhost:8080/feature -H 'Content-Type: application/json' -d '{}'
 ```
 # 镜像测试
 ```
-docker build -t klb/adapter:v1 .
-docker run -d --name adapter -p 20000:8080 klb/adapter:v1
+docker build -t cjx/adapter:1.0.0 .
+docker run -d --name adapter -p 20000:8080 cjx/adapter:v1
 docker logs -f adapter
 ```
 ```
